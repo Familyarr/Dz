@@ -1,0 +1,1180 @@
+2022-01-09T04:16:43+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts()
+#2 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts()
+#3 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#4 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#5 D:\OpenServer\domains\localhost\wp-includes\rest-api.php(370): WP_REST_Server->serve_request()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): rest_api_loaded()
+#7 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#8 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#9 D:\OpenServer\domains\localhost\wp-includes\class-wp.php(388): do_action_ref_array()
+#10 D:\OpenServer\domains\localhost\wp-includes\class-wp.php(750): WP->parse_request()
+#11 D:\OpenServer\domains\localhost\wp-includes\functions.php(1291): WP->main()
+#12 D:\OpenServer\domains\localhost\wp-blog-header.php(16): wp()
+#13 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#14 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php на строке 270
+
+2022-01-09T04:40:04+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\OpenServer\domains\localhost\wp-includes\wp-db.php на строке 2056
+
+2022-01-09T04:45:26+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T04:49:28+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:00:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:04:24+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:09:46+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:14:04+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:21:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:30:30+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:30:38+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:30:45+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:31:43+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:32:28+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:32:35+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:32:42+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:32:55+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(368): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:32:57+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(368): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:33:29+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:34:04+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:34:46+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:34:52+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\localhost\wp-includes\plugin.php(470): WP_Hook->do_action()
+#4 D:\OpenServer\domains\localhost\wp-includes\template-loader.php(13): do_action()
+#5 D:\OpenServer\domains\localhost\wp-blog-header.php(19): require_once('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#7 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-includes\customize\class-wp-customize-partial.php на строке 221
+
+2022-01-09T05:39:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:44:06+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:49:08+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:54:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T05:59:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:04:08+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:09:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:14:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:19:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:24:10+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:29:18+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:34:08+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:39:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:44:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:49:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:55:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T06:59:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T07:05:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T07:09:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T07:14:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T07:19:29+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T09:50:43+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T09:54:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T09:59:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:04:25+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:09:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:14:10+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:19:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:24:10+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:29:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:34:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:39:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:44:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:49:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:54:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T10:59:08+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:04:09+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:09:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:14:10+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:19:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:24:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:29:13+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:34:13+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:39:13+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:44:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:49:11+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:54:12+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T11:59:14+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:04:07+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:09:08+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:14:06+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:19:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:24:05+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:29:17+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:36:30+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:40:42+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:44:59+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:49:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:56:47+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T12:59:16+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T13:05:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T13:09:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
+2022-01-09T13:09:56+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts()
+#2 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts()
+#3 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request()
+#4 D:\OpenServer\domains\localhost\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#5 D:\OpenServer\domains\localhost\wp-includes\rest-api.php(370): WP_REST_Server->serve_request()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): rest_api_loaded()
+#7 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#8 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#9 D:\OpenServer\domains\localhost\wp-includes\class-wp.php(388): do_action_ref_array()
+#10 D:\OpenServer\domains\localhost\wp-includes\class-wp.php(750): WP->parse_request()
+#11 D:\OpenServer\domains\localhost\wp-includes\functions.php(1291): WP->main()
+#12 D:\OpenServer\domains\localhost\wp-blog-header.php(16): wp()
+#13 D:\OpenServer\domains\localhost\index.php(17): require('D:\\OpenServer\\d...')
+#14 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php на строке 270
+
+2022-01-09T13:15:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php:864
+Stack trace:
+#0 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 D:\OpenServer\domains\localhost\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task()
+#4 D:\OpenServer\domains\localhost\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 D:\OpenServer\domains\localhost\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\localhost\wp-includes\plugin.php(518): WP_Hook->do_action()
+#8 D:\OpenServer\domains\localhost\wp-cron.php(138): do_action_ref_array()
+#9 {main}
+  thrown в D:\OpenServer\domains\localhost\wp-content\plugins\elementor\core\base\document.php на строке 864
+
